@@ -539,3 +539,5 @@ $form->onSubmit(function($form) {
   return $form->success('Record update');
 
 });
+
+$button = $app->layout->add(['label','Хочу новое обновление']);
